@@ -1,0 +1,15 @@
+[package]
+name = "cfb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.58"
+clap = { version = "3.2.12", features = ["clap_derive", "derive"] }
+colored = { version = "2.0.0", features = [] }
+dynfmt = { version = "0.1.5", features = ["curly"] }
+serde = { version = "1.0.139", features = ["serde_derive", "derive"] }
+shell-quote = "0.3.0"
+toml = "0.5.9"
